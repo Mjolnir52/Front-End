@@ -1,0 +1,200 @@
+/* css for home page */
+/* Header */
+
+body{
+    background-color: azure;
+}
+.name {
+    font-size: larger;
+    color: black;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{
+    text-align: left;
+    background-color: rgb(192, 255, 255);
+}
+ 
+.menu ul{
+   display: inline-flex;
+   list-style: none;
+}
+
+ .menu ul li{
+   margin: 25px;
+   position: relative;
+}
+ 
+.menu ul li a{
+   padding: 8px;
+   color: black;
+   font-size: 20px;
+   text-decoration: none;
+   border-bottom: 2px solid black;
+   border-radius: 20px;
+   position: relative;
+}
+ 
+.search{ 
+   top: 40pt;
+   right: 45px;
+   position: absolute;
+   border:2px solid black;
+   border-radius: 10px; 
+}
+ 
+.search input{
+   font-size:18px;
+   border:1px solid #fff;
+   margin:8px;
+   padding: 8px;
+   border-radius: 10px;
+}
+
+.deals{
+    padding: 10px;
+
+}
+
+footer{
+    background-color: rgb(192, 255, 255);
+    text-align: center;
+    color: black;
+}
+
+.deals {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.deals h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.deals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.deals-container :hover{
+    background-color: azure;
+}
+
+.deals-container div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 45%;
+    max-width: 300px;
+
+}
+
+.deals-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.deals-container label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.deals-container input {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.deals-container input:hover {
+    background-color: #0056b3;
+    transform: scale(0.9);
+}
+
+.deals-container img {
+    width: 250px;  
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .deals-container div {
+        width: 100%;
+    }
+}
+
+/* About Us Page */
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Contact Us Form */
+.contact-form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 3px;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
