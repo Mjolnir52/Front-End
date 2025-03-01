@@ -1,0 +1,46 @@
+Bucky's Bucks - E-commerce Website
+
+Overview
+Bucky's Bucks is a simple e-commerce website that allows users to browse and purchase electronic products. The website features multiple pages including Home, Shop, About Us, and Contact Us.
+
+Features
+🏠 Home Page: Showcases the latest deals on electronics.
+🛒 Shop Page: Displays a variety of products available for purchase.
+ℹ️ About Us Page: Provides details about the company and its mission.
+📞 Contact Us Page: Includes a contact form for customer inquiries.
+📱 Responsive Design: Works across different devices.
+
+
+Technologies Used
+HTML5 for structuring the web pages.
+CSS3 for styling and responsive design.
+JavaScript (optional) for interactivity (can be added later).
+
+Project Structure
+Bucky's-Bucks/
+│-- index.html  (Home Page)
+│-- shop.html   (Shop Page)
+│-- about.html  (About Us Page)
+│-- contact.html  (Contact Us Page)
+│-- style.css   (CSS Styling)
+│-- images/     (Product Images)
+│-- README.md   (This file)
+
+
+
+How to Run the Project
+
+Clone the repository
+git clone https://github.com/yourusername/buckys-bucks.git
+
+Navigate to the project folder
+cd buckys-bucks
+
+Open index.html in a browser
+Open index.html in Chrome, Firefox, or any browser.
+
+Contributions
+Feel free to contribute by submitting a pull request or reporting any issues!
+
+License
+This project is licensed under the MIT License.
